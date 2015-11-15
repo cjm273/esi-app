@@ -10,6 +10,14 @@ public class Match {
     public String score;
     public String bestOf;
 
+    public Match() { // Test
+        this.p1 = new Player("TEST1", 1);
+        this.p2 = new Player("TEST2", 2);
+        this.tournament = new Tournament("Shuffle", 31, "www.example.com");
+        this.score = "2-1";
+        this.bestOf = "BO3";
+    }
+
     public Match(Player p1, Player p2, Tournament tournament, String score, String bestOf) {
         this.p1 = p1;
         this.p2 = p2;
