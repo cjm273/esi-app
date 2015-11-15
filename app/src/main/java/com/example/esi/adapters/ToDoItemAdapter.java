@@ -1,4 +1,4 @@
-package com.example.esi;
+package com.example.esi.adapters;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,6 +7,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
+
+import com.example.esi.R;
+import com.example.esi.ToDoActivity;
+import com.example.esi.objects.ToDoItem;
 
 /**
  * Adapter to bind a ToDoItem List to a view

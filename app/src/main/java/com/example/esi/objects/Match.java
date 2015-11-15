@@ -17,4 +17,8 @@ public class Match {
         this.score = score;
         this.bestOf = bestOf;
     }
+
+    public void UpdateScore(String score) {
+        this.score = score;
+    }
 }
