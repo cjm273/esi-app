@@ -60,4 +60,4 @@
             android:text="Large Text"
             android:id="@+id/opponent" />
     </LinearLayout>
-</LinearLayout><!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi_Android/esi/app/src/main/res/layout/row_list_followed_player.xml -->
+</LinearLayout><!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi-app/app/src/main/res/layout/row_list_followed_player.xml -->
