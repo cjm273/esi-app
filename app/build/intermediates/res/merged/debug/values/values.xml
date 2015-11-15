@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi_Android/esi/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi_Android/esi/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="CAT_MESSAGE">Hi</string>
     <string name="add_button_text">Add</string>
@@ -15,7 +15,7 @@
     <string name="mobile_services">Mobile Services </string>
     <string name="title_activity_follow_people">FollowPeople</string>
     <string name="title_activity_follow_player">FollowPlayer</string>
-    <!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi_Android/esi/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
