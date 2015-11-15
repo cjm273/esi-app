@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/values-w820dp/dimens.xml -->
+=======
     <!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi-app/app/src/main/res/values-w820dp/dimens.xml -->
+>>>>>>> ed26d964c94b8a944f1846e3ee4be18cef4df382
     <eat-comment/>
     <dimen name="activity_horizontal_margin">64dp</dimen>
 </resources>
