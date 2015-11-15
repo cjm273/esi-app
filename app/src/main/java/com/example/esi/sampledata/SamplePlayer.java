@@ -1,4 +1,6 @@
-package com.example.esi.objects;
+package com.example.esi.sampledata;
+
+import com.example.esi.objects.Player;
 
 import java.util.ArrayList;
 import java.util.List;

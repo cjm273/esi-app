@@ -11,6 +11,7 @@ import com.example.esi.activities.ToDoActivity;
 import com.example.esi.objects.FollowedPlayer;
 import com.example.esi.objects.Match;
 import com.example.esi.objects.Player;
+import com.example.esi.sampledata.SampleMatch;
 
 public class FollowPeopleActivity extends Activity implements View.OnClickListener{
     ImageButton[] btn;
