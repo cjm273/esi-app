@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,7 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#111111"
-        android:orientation="horizontal">
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -22,7 +25,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="Hi"
+                android:contentDescription="@string/CAT_MESSAGE"
                 android:src="@drawable/ic_cat_logo" />
 
         </LinearLayout>
@@ -38,7 +41,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="Hi"
+                android:contentDescription="@string/CAT_MESSAGE"
                 android:src="@drawable/ic_cat_logo" />
 
         </LinearLayout>
@@ -54,7 +57,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="Hi"
+                android:contentDescription="@string/CAT_MESSAGE"
                 android:src="@drawable/ic_cat_logo" />
         </LinearLayout>
 
@@ -69,8 +72,23 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:contentDescription="Hi"
+                android:contentDescription="@string/CAT_MESSAGE"
                 android:src="@drawable/ic_cat_logo" />
         </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            tools:listitem="@layout/row_list_followed_player"
+            android:padding="6dip" />
+    </LinearLayout>
+
 </RelativeLayout>
