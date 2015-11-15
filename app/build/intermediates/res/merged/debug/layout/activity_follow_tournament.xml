@@ -90,4 +90,4 @@
             tools:listitem="@layout/card_followed_matches"
             android:padding="6dip" />
     </LinearLayout>
-</RelativeLayout><!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/layout/activity_follow_tournament.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi-app/app/src/main/res/layout/activity_follow_tournament.xml -->
