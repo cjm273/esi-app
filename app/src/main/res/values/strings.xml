@@ -6,5 +6,8 @@
     <string name="mobile_services">Mobile Services </string>
     <string name="menu_refresh">Refresh</string>
     <string name="checkbox_text">Item Text</string>
-    
+    <string name="title_activity_follow_player">FollowPlayer</string>
+    <string name="title_activity_follow_people">FollowPeople</string>
+    <string name="CAT_MESSAGE">Hi</string>
+
 </resources>
