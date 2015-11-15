@@ -38,6 +38,14 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Medium Text"
             android:id="@+id/matchType" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/score" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,4 +60,4 @@
             android:text="Large Text"
             android:id="@+id/opponent" />
     </LinearLayout>
-</LinearLayout><!-- From: file:/C:/Users/Chris/AndroidStudioProjects/esi-app/app/src/main/res/layout/row_list_followed_player.xml -->
+</LinearLayout><!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi-app/app/src/main/res/layout/row_list_followed_player.xml -->
