@@ -1,4 +1,4 @@
-package com.example.esi;
+package com.example.esi.objects;
 
 /**
  * Represents an item in a ToDo list
