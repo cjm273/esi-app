@@ -17,6 +17,11 @@ public class FollowedPlayer {
         this.cMatch = -1;
     }
 
+    public void addMatch(List<Match> matches) {
+        this.matches = matches;
+        this.cMatch = matches.size() - 1;
+    }
+
     public void addMatch(Match match) {
         matches.add(match);
         cMatch++;
@@ -25,7 +30,10 @@ public class FollowedPlayer {
     public Match getCurrentMatch() {
         if (cMatch < 0)
             return new Match();
-        else
-            return matches.get(cMatch);
+        else {
+            Match c = matches.get(cMatch);
+            cMatch--;
+            return c;
+        }
     }
 }

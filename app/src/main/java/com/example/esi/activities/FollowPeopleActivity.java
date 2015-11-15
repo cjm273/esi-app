@@ -8,9 +8,13 @@ import android.widget.ImageButton;
 
 import com.example.esi.R;
 import com.example.esi.activities.ToDoActivity;
+import com.example.esi.objects.FollowedPlayer;
+import com.example.esi.objects.Match;
+import com.example.esi.objects.Player;
 
 public class FollowPeopleActivity extends Activity implements View.OnClickListener{
     ImageButton[] btn;
+    FollowedPlayer fp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,8 @@ public class FollowPeopleActivity extends Activity implements View.OnClickListen
         btn[0].setOnClickListener(this);
         btn[1] = (ImageButton) findViewById(R.id.imageButton2);
         btn[1].setOnClickListener(this);
+        fp = new FollowedPlayer(new Player("m2k", 9999));
+        loadData();
     }
 
     @Override
@@ -38,5 +44,13 @@ public class FollowPeopleActivity extends Activity implements View.OnClickListen
                 break;
         }
         startActivity(intent);
+    }
+
+    private void loadData() {
+        SampleMatch matches = new SampleMatch();
+
+        //for (Match match : matches.matches) {
+            fp.addMatch(matches.matches);
+        //}
     }
 }
