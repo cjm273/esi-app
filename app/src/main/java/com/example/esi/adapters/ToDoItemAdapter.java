@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 
 import com.example.esi.R;
-import com.example.esi.ToDoActivity;
+import com.example.esi.activities.ToDoActivity;
 import com.example.esi.objects.ToDoItem;
 
 /**

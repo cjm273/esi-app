@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:2:1-36:12
+=======
+ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:2:1-40:12
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
 	xmlns:android
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:2:11-69
 	package
@@ -42,7 +46,11 @@ ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\
 	android:name
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:14:22-77
 application
+<<<<<<< HEAD
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:16:5-34:19
+=======
+ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:16:5-38:19
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
 	android:label
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:19:9-41
 	android:allowBackup
@@ -50,19 +58,35 @@ ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\
 	android:icon
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:18:9-45
 	android:theme
+<<<<<<< HEAD
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:20:9-40
 activity#com.example.esi.ToDoActivity
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:21:9-24:20
+=======
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.example.esi.activities.ToDoActivity
+ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:21:9-24:20
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
 	android:label
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:23:13-45
 	android:name
+<<<<<<< HEAD
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:22:13-41
 activity#com.example.esi.FollowPeopleActivity
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:25:9-33:20
+=======
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:22:13-52
+activity#com.example.esi.activities.FollowPeopleActivity
+ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:25:9-33:20
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
 	android:label
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:27:13-65
 	android:name
+<<<<<<< HEAD
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:26:13-49
+=======
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:26:13-60
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
@@ -72,4 +96,14 @@ ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\
 category#android.intent.category.LAUNCHER
 ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
+<<<<<<< HEAD
 		ADDED from C:\Users\David\Documents\Workspace\HackOhio2015\esi-app\app\src\main\AndroidManifest.xml:31:27-74
+=======
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.example.esi.activities.FollowTournamentActivity
+ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from C:\Users\Chris\AndroidStudioProjects\esi-app\app\src\main\AndroidManifest.xml:35:13-64
+>>>>>>> d98b1e2c5cea60b2d8d8a1bfc9c5d250d20075b2
