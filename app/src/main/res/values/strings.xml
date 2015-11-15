@@ -9,5 +9,6 @@
     <string name="title_activity_follow_player">FollowPlayer</string>
     <string name="title_activity_follow_people">FollowPeople</string>
     <string name="CAT_MESSAGE">Hi</string>
+    <string name="title_activity_follow_tournament">FollowTournamentActivity</string>
 
 </resources>

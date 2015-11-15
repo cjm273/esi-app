@@ -58,6 +58,7 @@ public final class R {
         public static final int mobile_services=0x7f060006;
         public static final int title_activity_follow_people=0x7f060007;
         public static final int title_activity_follow_player=0x7f060008;
+        public static final int title_activity_follow_tournament=0x7f060009;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

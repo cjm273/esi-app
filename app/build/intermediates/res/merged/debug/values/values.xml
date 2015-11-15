@@ -15,6 +15,7 @@
     <string name="mobile_services">Mobile Services </string>
     <string name="title_activity_follow_people">FollowPeople</string>
     <string name="title_activity_follow_player">FollowPlayer</string>
+    <string name="title_activity_follow_tournament">FollowTournamentActivity</string>
     <!-- From: file:/C:/Users/David/Documents/Workspace/HackOhio2015/esi-app/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
