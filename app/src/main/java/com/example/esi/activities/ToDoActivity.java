@@ -1,4 +1,4 @@
-package com.example.esi;
+package com.example.esi.activities;
 
 
 import java.net.MalformedURLException;

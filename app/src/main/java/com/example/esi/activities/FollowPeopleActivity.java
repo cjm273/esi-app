@@ -1,4 +1,4 @@
-package com.example.esi;
+package com.example.esi.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.esi.R;
+import com.example.esi.activities.ToDoActivity;
 
 public class FollowPeopleActivity extends Activity implements View.OnClickListener{
     ImageButton[] btn;
@@ -20,8 +21,6 @@ public class FollowPeopleActivity extends Activity implements View.OnClickListen
         btn[0].setOnClickListener(this);
         btn[1] = (ImageButton) findViewById(R.id.imageButton2);
         btn[1].setOnClickListener(this);
-        btn[2] = (ImageButton) findViewById(R.id.imageButton3);
-        btn[2].setOnClickListener(this);
     }
 
     @Override
@@ -33,14 +32,10 @@ public class FollowPeopleActivity extends Activity implements View.OnClickListen
                 intent = new Intent(this, ToDoActivity.class);
                 //intent.putExtra("category", );
                 break;
-//            case(R.id.imageButton2):
-//                intent = new Intent(this, ToDoItem.class);
-//                //intent.putExtra("category", );
-//                break;
-//            case(R.id.imageButton3):
-//                intent = new Intent(this, ToDoItemAdapter.class);
-//                //intent.putExtra("category", );
-//                break;
+            case(R.id.imageButton2):
+                intent = new Intent(this, FollowTournamentActivity.class);
+                //intent.putExtra("category", );
+                break;
         }
         startActivity(intent);
     }
