@@ -5,9 +5,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ListView;
 
 import com.example.esi.R;
 import com.example.esi.activities.ToDoActivity;
+import com.example.esi.adapters.FollowPlayerAdapter;
+import com.example.esi.adapters.ToDoItemAdapter;
 import com.example.esi.objects.FollowedPlayer;
 import com.example.esi.objects.Match;
 import com.example.esi.objects.Player;
@@ -16,6 +19,8 @@ import com.example.esi.sampledata.SampleMatch;
 public class FollowPeopleActivity extends Activity implements View.OnClickListener{
     ImageButton[] btn;
     FollowedPlayer fp;
+    FollowPlayerAdapter adapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +31,13 @@ public class FollowPeopleActivity extends Activity implements View.OnClickListen
         btn[0].setOnClickListener(this);
         btn[1] = (ImageButton) findViewById(R.id.imageButton2);
         btn[1].setOnClickListener(this);
-        fp = new FollowedPlayer(new Player("m2k", 9999));
-        loadData();
+        //fp = new FollowedPlayer(new Player("m2k", 9999));
+        //loadData();
+
+        //adapter = new FollowPlayerAdapter(this, R.layout.row_list_followed_player);
+        //adapter.loadStuff(fp);
+        //ListView listViewToDo = (ListView) findViewById(R.id.listView);
+        //listViewToDo.setAdapter(adapter);
     }
 
     @Override
