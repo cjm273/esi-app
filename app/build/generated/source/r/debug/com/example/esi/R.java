@@ -21,7 +21,7 @@ public final class R {
     public static final class id {
         public static final int LinearLayout1=0x7f080000;
         public static final int buttonAddToDo=0x7f08000a;
-        public static final int checkToDoItem=0x7f080010;
+        public static final int checkToDoItem=0x7f080011;
         public static final int imageButton1=0x7f080002;
         public static final int imageButton2=0x7f080003;
         public static final int imageButton3=0x7f080004;
@@ -31,9 +31,10 @@ public final class R {
         public static final int listViewToDo=0x7f08000b;
         public static final int loadingProgressBar=0x7f080008;
         public static final int matchType=0x7f08000e;
-        public static final int menu_refresh=0x7f080011;
-        public static final int opponent=0x7f08000f;
+        public static final int menu_refresh=0x7f080012;
+        public static final int opponent=0x7f080010;
         public static final int player=0x7f08000c;
+        public static final int score=0x7f08000f;
         public static final int textNewToDo=0x7f080009;
         public static final int textViewTitle=0x7f080007;
         public static final int tournament=0x7f08000d;
